@@ -1,0 +1,87 @@
+/* app css stylesheet */
+
+.no-bottom-margin {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.jumbotron {
+    padding: 20px;
+}
+
+
+/*********************************************************************
+
+
+                                FOOTER
+
+
+**********************************************************************/
+#footer {
+  background: #232323;
+  padding: 30px 0 0 0;
+  font-size: 12px;
+  color: #999;
+}
+#footer a {
+  color: #ccc;
+}
+#footer a:hover {
+  color: #fff;
+}
+#footer h3.widget-title {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: #ccc;
+  margin: 0 0 20px;
+}
+.follow-me-icons {
+  font-size: 30px;
+}
+.follow-me-icons i {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+ul {
+    /* disabled this : 
+    dropdown hidden by the container, 
+    and sidebar comes up - don't like it*/
+    overflow: auto;
+}
+ 
+ul li {
+    list-style-type: none;
+    float: left;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    background:#3b5998
+} 
+.fa-linkedin {
+    background:#007bb6
+}
+.fa-twitter {
+    background:#00aced
+}
+.google-plus {
+    background:#d34836
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
+
+  

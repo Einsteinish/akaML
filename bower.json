@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "0.0.2",
+  "dependencies": {
+    "angular": "*",
+    "angular-mocks": "*",
+    "angular-route": "*",
+    "angular-local-storage" : "*",
+    "angular-animate" : "*",
+    "angular-toastr" : "*",
+    "jquery": "*",
+    "bootstrap": "*",
+    "cryptojslib" : "*",
+    "requirejs" : "*"
+  },
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

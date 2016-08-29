@@ -9,21 +9,22 @@
      8. Unit test base configuration with Jasmine and Karma.
      9. Twitter Bootstrap
      10. JQuery
+     11. Docker deploy tutorial [http://bogotobogo.com/MEAN-Stack/MEAN-Stack-NodeJS-Angular-Docker.php]
 
-     11. To start application :
+     12. To start application :
         npm install // to install node modules dependencies
         bower install // to install bower dependencies
         node server.js  
 
-     12. To minify application:
+     13. To minify application:
         node_modules/requirejs/bin/r.js -o tools/app.build.js
 
-     13. To run as daemon, we may want to use PM2:
+     14. To run as daemon, we may want to use PM2:
      To install PM2: $ sudo npm install pm2 -g
      To run node app : $ pm2 start server.js
      Startup setup on reboot, specify the platform : $ pm2 startup ubuntu  
 
-     14. Refs:
+     15. Refs:
      [mancioshell/NEMTAB](https://github.com/mancioshell/NEMTAB.git) 
      [btford/angular-express-seed](https://github.com/btford/angular-express-seed).
 

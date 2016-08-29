@@ -1,28 +1,32 @@
 #[akaML] Powered by MEAN 
-     1. Angular/Node/Express/MongoDB.
-     2. [Toastr](https://github.com/CodeSeven/toastr) primarily for Popup Notifications.
-     3. Passport - login, logout, signup.
-     4. CRUD operations with Express JS and MongoDB.
-     5. No Jade Templating, instead implemented html partilals via Angular template.
-     6. Bower configuration to handle JS browser dependencies.
-     7. RequireJS.
-     8. Unit test base configuration with Jasmine and Karma.
-     9. Twitter Bootstrap
-     10. JQuery
-     11. [Docker deploy tutorial](http://bogotobogo.com/MEAN-Stack/MEAN-Stack-NodeJS-Angular-Docker.php)
-     12. To start application :
-        npm install // to install node modules dependencies
-        bower install // to install bower dependencies
-        node server.js  
-     13. To minify application:
-        node_modules/requirejs/bin/r.js -o tools/app.build.js
-     14. To run as daemon, we may want to use PM2:
-     To install PM2: $ sudo npm install pm2 -g
-     To run node app : $ pm2 start server.js
-     Startup setup on reboot, specify the platform : $ pm2 startup ubuntu  
-     15. Refs:
-     [mancioshell/NEMTAB](https://github.com/mancioshell/NEMTAB.git) 
-     [btford/angular-express-seed](https://github.com/btford/angular-express-seed).
+
+
+## Features
+
++ Angular/Node/Express/MongoDB.
++ [Toastr](https://github.com/CodeSeven/toastr) primarily for Popup Notifications.
++ Passport - login, logout, signup.
++ CRUD operations with Express JS and MongoDB.
++ No Jade Templating, instead implemented html partilals via Angular template.
++ Bower configuration to handle JS browser dependencies.
++ RequireJS.
++ Unit test base configuration with Jasmine and Karma.
++ Twitter Bootstrap
++ JQuery
++ [Docker deploy tutorial](http://bogotobogo.com/MEAN-Stack/MEAN-Stack-NodeJS-Angular-Docker.php)
++ To start application :
+ +npm install // to install node modules dependencies
+ +bower install // to install bower dependencies
+ +node server.js  
++ To minify application:
+ +node_modules/requirejs/bin/r.js -o tools/app.build.js
++ To run as daemon, we may want to use PM2:
+ +To install PM2: $ sudo npm install pm2 -g
+ +To run node app : $ pm2 start server.js
+ +Startup setup on reboot, specify the platform : $ pm2 startup ubuntu  
++ Refs:
+ +[mancioshell/NEMTAB](https://github.com/mancioshell/NEMTAB.git) 
+ +[btford/angular-express-seed](https://github.com/btford/angular-express-seed).
 
 
 ## Directory Layout

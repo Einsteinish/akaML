@@ -1,6 +1,11 @@
 module.exports = function(mongoose) {
 
-    var dbURI = 'mongodb://localhost:27017/myApp';
+    // When mongodb installed on the same host (localhost)  as MEAN
+    // var dbURI = 'mongodb://localhost:27017/myApp';
+    
+    // Needs mongo docker container ip 
+    var dbURI = 'mongodb://172.17.0.2:27017/myApp';
+   
     var connection = mongoose.createConnection(dbURI,{ server: { poolSize: 5 } });
 
     // When successfully connected

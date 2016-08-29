@@ -9,7 +9,7 @@ var http = require('http');
 var path = path = require('path');
 var uuid = require('node-uuid');
 
-var vhost = 'nodejsapp.local'
+// var vhost = 'nodejsapp.local'
 var port     = process.env.PORT || 3000;
 var ip     = process.env.IP || "localhost";
 
@@ -59,5 +59,5 @@ if (app.get('env') === 'production') {
 //express.vhost(vhost, app);
 
 var server = http.createServer(app).listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + vhost+":"+server.address().port);
+    console.log('Express server listening on port : ' + server.address().port);
 });

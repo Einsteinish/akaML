@@ -15,7 +15,7 @@
         "connect-flash" : "*",
         "requirejs" : "*",
         "node-uuid" : "*",
-        "grunt": "*",
+        "grunt": "~0.4.1",
         "grunt-npm-install" : "*",
         "grunt-bower-installer" : "*",
         "grunt-contrib-requirejs" : "*"
